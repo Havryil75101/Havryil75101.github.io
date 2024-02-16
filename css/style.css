@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+	font-family: "Mayestica";
+	src: url("../fonts/Mayestica.ttf");
+}
+
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto-Regular.ttf");
+}
+
+
+
+h1 {
+    font-family: "Mayestica";
+	width: 100%;
+	text-align: center;
+	font-size: 150px;
+	color: rgb(0, 31, 97);
+}
+
+body {
+    background-color: rgb(8, 8, 107);
+}
+
+main{
+    width: 90%;
+    padding: 40px;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+
+div:hover {
+	transform: rotate(3deg) scale(1.09);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+
+
+div {
+    width: calc(40% - 10px);
+    height: calc((35vw - 40px) / 16 * 9);
+    background-color: rgb(213, 250, 255);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    transition: all 0.5s;
+} 
+
+.photo1{
+         background-image: url(../img/Fortnite.webp);
+} 
+
+.photo2{
+    background-image: url(../img/GTA-5.jpg);
+} 
+
+.photo3{
+    background-image: url(../img/Minecraft.webp);
+} 
+
+.photo4{
+    background-image: url(../img/Roblox.jpeg);
+} 
+
+.photo5{
+    background-image: url(../img/Youtube.jpeg);
+} 
+
+
+.photo6{
+    background-image: url(../img/brawlstars.jpg);
+} 
+
+.photo7{
+    background-image: url(../img/image.png);
+} 
+
+
+.photo8{
+    background-image: url(../img/Standoff2.jpeg);
+} 
+
+.photo9{
+    background-image: url(../img/lyas.png);
+} 
